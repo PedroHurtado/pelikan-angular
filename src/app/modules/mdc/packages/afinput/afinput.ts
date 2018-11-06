@@ -9,8 +9,7 @@ import {MDCTextField} from '@material/textfield';
 
 @Component({
     selector: 'af-input',
-    templateUrl: './afinput.html',
-    styleUrls:['./afinput.scss']
+    templateUrl: './afinput.html',   
 })
 export class AfInput extends BaseComponent {
     constructor(formService: FormService, ngZone: NgZone) {

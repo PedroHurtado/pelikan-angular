@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pelikan-angular';
+    @ViewChild('frm') form;
+    private model=null;
+    onSubmit = () => {
+        console.log(this.model);
+        console.log(this.form.form);
+        
+    }
 }

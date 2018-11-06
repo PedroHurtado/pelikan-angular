@@ -1,6 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<af-form>
+<af-form #frm [onSubmit]="onSubmit">
   <af-input model="model.email" text="email"></af-input>        
-  <af-input model="model.password" text="password"></af-input>  
+  <af-input model="model.password" text="password"></af-input> 
+  <button type="submit">Submit</button> 
 </af-form>
 <router-outlet></router-outlet>

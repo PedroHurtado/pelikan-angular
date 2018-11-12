@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CoreModule} from './modules/core/core.module';
 import {MdcModule} from './modules/mdc/mdc.module';
+import {DynamicModule} from './modules/dynamic/dynamic.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -13,7 +14,8 @@ import {MdcModule} from './modules/mdc/mdc.module';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    MdcModule
+    MdcModule,
+    DynamicModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -18,10 +18,5 @@ const ALL = [
     declarations: ALL,
 })
 
-@NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
-})
+
 export class CoreModule { }

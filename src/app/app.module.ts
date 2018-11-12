@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {CoreModule} from './modules/core/core.module';
-import {MdcModule} from './modules/mdc/mdc.module';
-import {DynamicModule} from './modules/dynamic/dynamic.module';
+import { CoreModule } from './modules/core/core.module';
+import { MdcModule } from './modules/mdc/mdc.module';
+import { DynamicModule } from './modules/dynamic/dynamic.module';
 @NgModule({
   declarations: [
     AppComponent

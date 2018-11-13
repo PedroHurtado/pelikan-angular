@@ -1,0 +1,37 @@
+@import 'variables.css';
+@import './grid/grid.css';
+@import './select/select.css';
+@import './paginator/paginator.css';
+
+/*reset*/
+body,html{
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*TODO: REMOVE*/
+.converter{
+    width: 30px;
+    height: 21px;
+    border-radius: 3px;
+    background-color: #eaf0f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

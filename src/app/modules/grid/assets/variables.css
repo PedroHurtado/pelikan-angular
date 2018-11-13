@@ -1,0 +1,16 @@
+:root {
+    --colortext:#3f3f3f;
+    --backgroundheader: #cbd4da;
+    --backgroundselectedrow: #f7f8f9;
+    --backbgroundrow: #ffffff;
+    --backbgroundrowhover:#f7f8f9;
+    --heightheader:38px;
+    --heightrow:42px;
+    --marginleftcolumn:40px;
+    --marginleftfirstcolumn:15px;
+    --backgroundcolorselected:#feb81a;
+}
+
+:root{
+    --borderrowbody: 1px solid #eaf0f4;
+}

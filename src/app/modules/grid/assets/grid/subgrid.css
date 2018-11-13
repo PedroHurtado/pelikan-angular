@@ -1,0 +1,27 @@
+:root{
+    --subgridheaderheight:27px;
+    --subgridbackgroundheader:#dfe4e8;
+    --subgridbodyheight:40px;
+    --colorhover:#eaf0f4;
+}
+.subgrid{
+    display: flex;
+    flex-direction: column;
+}
+.subgrid__body{
+    color: var(--colortext);
+    
+}
+.subgrid_header{
+    background-color: var(--subgridbackgroundheader);
+}
+.subgrid__header__row{
+    min-height: var(--subgridheaderheight);
+}
+.subgrid__body__row__columns{
+    min-height: var(--subgridbodyheight);
+    display: flex;
+}
+.subgrid__body__row__columns:hover{
+    background-color: var(--colorhover);
+}

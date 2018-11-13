@@ -1,0 +1,39 @@
+.grid__column__sort{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.grid__column__sort__column{
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid__column__sort__column:hover{
+    background-color: #d6dee3;
+    border-radius: 2px;
+}
+.grid__column__sort__column__i{
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.grid__column__sort__column__i--down {
+	border-top: 3px solid black;
+}
+
+.grid__column__sort__column__i--downselected {
+	border-top: 3px solid blue;
+}
+.grid__column__sort__column__i--up {
+	border-bottom: 3px solid black;
+}
+
+.grid__column__sort__column__i--upselected {
+	border-bottom: 3px solid blue
+}
+
+
